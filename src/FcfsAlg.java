@@ -7,16 +7,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class FcfsAlg {
-	/*
-	@author Fatma Erkan -20150807029
-	*/
+	 
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(System.in);
         String baseFileName;
-        System.out.println("Please enter filename with location.\n For example: C:\\Users\\erkan\\Desktop\\test.txt");
-        baseFileName = scanner.next();
-        //baseFileName = "C:\\Users\\erkan\\Desktop\\test.txt";
+        System.out.println("Please enter filename with location.\n For example: D:\\test.txt");
+        baseFileName = scanner.next(); 
 
         generateFcfsAlgorithm(baseFileName);
     }
