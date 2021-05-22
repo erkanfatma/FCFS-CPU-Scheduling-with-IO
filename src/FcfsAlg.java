@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 
 public class FcfsAlg {
 	 
-
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(System.in);
         String baseFileName;
